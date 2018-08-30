@@ -7,7 +7,6 @@ pygmentsStyle = "default"
 pygmentsUseClasses = true
 buildDrafts = false
 RSSUri = "feed.xml"
-publishDir = "/home/zvector/hugo-blog/public"
 
 
 [Author]
