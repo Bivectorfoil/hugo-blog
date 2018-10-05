@@ -1,43 +1,46 @@
-BaseURL = "https://bivectorfoil.github.io/"
+BaseURL = "http://coderzh.github.io/hugo-pacman-theme/"
 LanguageCode = "zh-CN"
 HasCJKLanguage = true
-Title = "Zvector & Blog"
+Title = "Hugo PacMan Theme Demo"
 Theme = "hugo-pacman-theme"
 pygmentsStyle = "default"
 pygmentsUseClasses = true
-buildDrafts = false
-
 
 [Author]
-  Name = "zvector"
+  Name = "coderzh"
 
 [outputs]
   home = [ "RSS", "HTML" ]
+    
+[outputFormats] 
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"
 
 [Params]
-  AuthorHomepage = "https://bivectorfoil.github.io/"
-  BottomIntroduce = "Connect the world <br/> Learn the world"
-  # you world rather to do nothing than something?
+  AuthorHomepage = "http://blog.coderzh.com"
+  BottomIntroduce = "Introduce1 <br/> Introduce2"
   Description = ""
-  Subtitle = "Connect the world"
-  GitHub = "Bivectorfoil"
+  Subtitle = "subtitle"
+  Weibo = "coderzh"
+  WeiboID = 1816308191
+  Twitter = "coderzh"
+  GitHub = "coderzh"
+  Facebook = "coderzh"
+  LinkIn = "coderzh"
   Imglogo = "img/logo.svg"
   AuthorImg = "img/author.jpg"
-  # 日期时间格式
   DateFormat = "2006年01月02日"
   MonthFormat = "2006年01月"
   FancyBox = true
   CreativeCommons = true
 
-  # 使用 Disqus 评论
+  [Params.GoogleAnalytics]
+    ID = "UA-10147768-2"
+
   [Params.Disqus]
-    ShortName = "zvector"
+    ShortName = "coderzh"
 
-  # Google 统计
-  #[Params.GoogleAnalytics]
-  #  ID = "UA-10147768-2"
-
-  # 多语言字符串
   [Params.Strings]
     Search = "搜索"
     PageNotFound = "你访问的页面不存在"
@@ -47,6 +50,7 @@ buildDrafts = false
     Archive = "归档"
     Tags = "标签"
     TagCloud = "标签云"
+    Rss = "RSS 订阅"
     TableOfContents = "文章目录"
 
 [Menu]
