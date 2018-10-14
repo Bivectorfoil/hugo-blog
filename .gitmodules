@@ -2,3 +2,7 @@
         path = public
         url = git@github.com:Bivectorfoil/bivectorfoil.github.io.git
         ignore = all
+[submodule "themes/hugo-pacman-theme"]
+        path = themes/hugo-pacman-theme
+        url = git@github.com:Bivectorfoil/hugo-pacman-theme.git
+        ignore = all
