@@ -3,7 +3,7 @@ title: "《图解HTTP》读书笔记（零）"
 date: 2017-12-15T18:55:02+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["HTTP", "NOTES"]
 categories: ["读书笔记"]
 CreativeCommons: true

@@ -3,7 +3,7 @@ title: "How To Learn CS"
 date: 2017-12-05T22:30:53+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["CS", "self learn"]
 categories: ["学习笔记"]
 CreativeCommons: false

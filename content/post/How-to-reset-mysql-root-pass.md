@@ -3,7 +3,7 @@ title: "如何重置MySQL的root密码"
 date: 2018-06-02T12:47:10+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["mysql"]
 categories: ["技术备忘录"]
 CreativeCommons: true

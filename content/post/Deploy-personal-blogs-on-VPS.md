@@ -3,7 +3,7 @@ title: "使用Git部署Hugo静态博客到VPS上"
 date: 2017-12-02T11:07:44+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["VPS", "Hugo", "Let's Encrypt", "blog", "memo"]
 categories: ["技术备忘录"]
 CreativeCommons: true
@@ -12,10 +12,10 @@ draft: false
 
 ## 预先准备
 
-1. 一台VPS，可见[如何购买VPS及购买后的安全措施](https://zvector.tk/post/how-to-buy-vps-and-security-setting/)
-2. 一个DNS解析到VPS的域名，可见[如何拥有一个域名](https://zvector.tk/post/how-to-get-a-domain-name/)
-3. 本地搭建好的Hugo博客，可见[极简Hugo搭建个人博客笔记](https://zvector.tk/post/minimal-hugo-build-personal-blog-notes/)
-4. 使用Nginx作为网站服务器，可见[Install Nginx Ubuntu16.04](https://zvector.tk/post/install-nginx-ubuntu16.04/)
+1. 一台VPS，可见[如何购买VPS及购买后的安全措施](https://bivectorfoil.github.io/post/how-to-buy-vps-and-security-setting/)
+2. 一个DNS解析到VPS的域名，可见[如何拥有一个域名](https://bivectorfoil.github.io/post/how-to-get-a-domain-name/)
+3. 本地搭建好的Hugo博客，可见[极简Hugo搭建个人博客笔记](https://bivectorfoil.github.io/post/minimal-hugo-build-personal-blog-notes/)
+4. 使用Nginx作为网站服务器，可见[Install Nginx Ubuntu16.04](https://bivectorfoil.github.io/post/install-nginx-ubuntu16.04/)
 
 如果一切就绪，那让我们现在开始吧~
 

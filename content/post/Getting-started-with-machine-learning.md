@@ -3,7 +3,7 @@ title: "机器学习入坑记录"
 date: 2018-03-02T12:32:53+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["notes", "machine learning"]
 categories: ["技术备忘录"]
 CreativeCommons: true

@@ -3,7 +3,7 @@ title: "《图解HTTP》读书笔记（一）"
 date: 2017-12-18T20:43:28+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["HTTP", "NOTES"]
 categories: ["读书笔记"]
 CreativeCommons: true
@@ -14,7 +14,7 @@ draft: false
 
 本文是《图解HTTP》读书笔记系列的第二篇，其他章节可在这里查看：
 
-> [《图解HTTP》读书笔记（零）](https://zvector.tk/post/illustration-http-0/)
+> [《图解HTTP》读书笔记（零）](https://bivectorfoil.github.io/post/illustration-http-0/)
 
 本篇简要介绍HTTP协议的大致结构和主要方法，主要使用HTTP/1.1版本，是为简单的HTTP协议基础。
 

@@ -3,7 +3,7 @@ title: "在VPS上搭建绿色上网工具"
 date: 2017-12-02T15:25:11+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["ssserver"]
 categories: ["技术备忘录"]
 CreativeCommons: true
@@ -25,7 +25,7 @@ draft: false
 
 ### 第一步，SSH登录VPS
 
-方法参考之前的博文[如何购买VPS及购买后的安全措施](https://zvector.tk/post/how-to-buy-vps-and-security-setting/)，此处不再赘述。
+方法参考之前的博文[如何购买VPS及购买后的安全措施](https://bivectorfoil.github.io/post/how-to-buy-vps-and-security-setting/)，此处不再赘述。
 
 ### 第二步，下载安装
 

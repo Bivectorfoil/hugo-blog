@@ -3,7 +3,7 @@ title: "极简Hugo搭建个人博客笔记"
 date: 2017-11-28T13:50:09+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["memo", "Hugo", "Blog"]
 categories: ["技术备忘录"]
 CreativeCommons: true
@@ -105,4 +105,4 @@ $ git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 $ hugo server --theme=hugo-cactus-theme --buildDrafts
 ```
 
-在浏览器地址栏打开```localhost:1313```，That's all ！Hugo搭建个人博客先告一段落，关于Hugo的部署有空我会再写一篇博文：2018.5.28 更新，请参看[这里](https://zvector.tk/post/deploy-personal-blogs-on-vps/)）Now,enjoy writing~
+在浏览器地址栏打开```localhost:1313```，That's all ！Hugo搭建个人博客先告一段落，关于Hugo的部署有空我会再写一篇博文：2018.5.28 更新，请参看[这里](https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/)）Now,enjoy writing~

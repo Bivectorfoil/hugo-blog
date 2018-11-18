@@ -3,7 +3,7 @@ title: "程序的含义"
 date: 2018-04-12T20:56:36+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: [""]
 categories: [""]
 CreativeCommons: true

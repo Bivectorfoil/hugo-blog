@@ -3,7 +3,7 @@ title: "[译］教程 - 用C实现一个Shell"
 date: 2018-03-31T21:52:55+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["shell", "C"]
 categories: ["技术翻译"]
 CreativeCommons: true

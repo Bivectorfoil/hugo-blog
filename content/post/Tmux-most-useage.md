@@ -3,7 +3,7 @@ title: "Tmux的快速操作入门"
 date: 2018-04-29T15:25:02+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["tmux"]
 categories: ["技术备忘录"]
 CreativeCommons: true

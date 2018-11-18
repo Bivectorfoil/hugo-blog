@@ -3,7 +3,7 @@ title: "浅谈Linux命令rm及回收站"
 date: 2017-12-22T21:34:12+08:00
 toc: false
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["shell", "linux"]
 categories: ["技术闲谈"]
 CreativeCommons: true

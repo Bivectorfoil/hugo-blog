@@ -2,14 +2,14 @@
 title: "Tensorflow中的几个基本概念"
 date: 2018-03-03T13:03:34+08:00
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["notes", "tensorflow"]
 categories: ["技术备忘录"]
 CreativeCommons: true
 draft: true
 ---
 
-在前一篇[机器学习入坑记录](https://zvector.tk/post/getting-started-with-machine-learning/)中，我们简要地过了一遍Pandas库的几个常用方法。本篇博文为低阶Tensorflow基础知识，主要学习Tensorflow（下文简称TF）的几个基本概念：张量，指令，图，会话等。
+在前一篇[机器学习入坑记录](https://bivectorfoil.github.io/post/getting-started-with-machine-learning/)中，我们简要地过了一遍Pandas库的几个常用方法。本篇博文为低阶Tensorflow基础知识，主要学习Tensorflow（下文简称TF）的几个基本概念：张量，指令，图，会话等。
 
 我们在数学和物理学的学习中接触过标量（一个点或一个数字，也可称零维数组），矢量（一条线或一阶数组，也可称一维数组）和矩阵（二维数组）的概念。那么张量是什么呢？对使用TF的我们来说，将张量理解为是一种多维数组，即对上述标量也好，矢量或矩阵也好，张量就是对这些概念的概括和延伸。这样的理解对目前我们的使用已经足够。在TF的学习中，张量的使用是十分普遍和基础的，下面我们来看看如何在TF中创建和使用张量。
 

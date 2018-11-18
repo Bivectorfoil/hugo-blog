@@ -3,7 +3,7 @@ title: "如何购买VPS及购买后的安全措施"
 date: 2017-11-24T22:46:36+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["Tech","memo"]
 categories: ["技术备忘录"]
 CreativeCommons: true
@@ -23,7 +23,7 @@ draft: false
 
 ## 购买平台--以Vultr为例
 
-那么，如何购买VPS呢？国人经常谈论的几家VPS商无外乎[Vultr](http://www.vultr.com/)，[DigitalOcean](https://www.digitalocean.com/)，[搬瓦工](https://bwh1.net/)，等等，在此不再赘述。我以Vultr为例，因为我购买的第一台VPS即是Vultr的，本博客也是搭建在Vultr上的。（关于在VPS上搭建个人博客，也许以后有空会写一篇教程。2018.5.28 更新，搭建个人博客可以查看[教程一](https://zvector.tk/post/minimal-hugo-build-personal-blog-notes/)，[教程二](https://zvector.tk/post/deploy-personal-blogs-on-vps/)）
+那么，如何购买VPS呢？国人经常谈论的几家VPS商无外乎[Vultr](http://www.vultr.com/)，[DigitalOcean](https://www.digitalocean.com/)，[搬瓦工](https://bwh1.net/)，等等，在此不再赘述。我以Vultr为例，因为我购买的第一台VPS即是Vultr的，本博客也是搭建在Vultr上的。（关于在VPS上搭建个人博客，也许以后有空会写一篇教程。2018.5.28 更新，搭建个人博客可以查看[教程一](https://bivectorfoil.github.io/post/minimal-hugo-build-personal-blog-notes/)，[教程二](https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/)）
 
 首先，需要创建一个账户，使用电子邮箱注册，注册成功后Vultr会给邮箱发送一封确认邮件，包含确认链接。Vultr现在支持使用支付宝支付，创建账户以后，需要先充值一定的金额才能正常购买VPS，充值以后，有些教程会有优惠码赠送，这是Vultr提供给推荐者的优惠，推荐者和新注册用户都可得到优惠。但是，很遗憾，本教程没有：）账户在手，金额已充值，万事大全，那么重点来了，该选择那种操作系统呢？我当时选择的是Ubuntu16.04，无他，熟悉矣。读者可以自由选择，或者自行上传ISO文件。Vultr的几种套餐由读者量力选择，避免浪费。值得注意的是，购买好VPS以后，启动以后，等待几分钟，应该就能正常工作了，这时要注意复制记好VPS的IP地址，和ssh密码，后面通过ssh登录VPS需要用到。
 

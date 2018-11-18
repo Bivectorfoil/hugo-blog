@@ -3,7 +3,7 @@ title: "如何拥有一个域名"
 date: 2017-12-01T21:46:44+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["domain name", "memo"]
 categories: ["技术备忘录"]
 CreativeCommons: true

@@ -2,7 +2,7 @@
 title: "一个批处理缩进的VIM技巧"
 date: 2018-03-05T11:07:06+08:00
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["vim", "script"]
 categories: ["技术闲谈"]
 CreativeCommons: true

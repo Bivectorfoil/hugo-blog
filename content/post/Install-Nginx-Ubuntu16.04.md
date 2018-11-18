@@ -3,7 +3,7 @@ title: "Install Nginx on Ubuntu16.04"
 date: 2017-11-27T20:26:31+08:00
 toc: true
 author: "zvector"
-author_homepage: "https://zvector.tk/"
+author_homepage: "https://bivectorfoil.github.io/"
 tags: ["Nginx", "Ubuntu16.04", "memo"]
 categories: ["技术备忘录"]
 CreativeCommons: true
