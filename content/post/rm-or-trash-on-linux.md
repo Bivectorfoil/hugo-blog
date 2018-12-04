@@ -20,13 +20,13 @@ draft: false
 
 使用Linux系统的用户应该都知道rm命令的威力，尤其是那个著名的rm -rf笑话，毋庸置疑，rm是一个效力很强的命令，如果使用不得当，很容易造成无法挽回的后果，误删文件。在经历一次小小的误删文件后，我决定要“改造”下这个命令了。在《Linux Shell脚本攻略》中，提供了一个alias命令，用于替换rm命令，使得我们使用rm命令时只是将文件移动到了自定义的Trash目录中，更安全的删除文件，这个alias命令如下：
 
-```Bash
+```bash
 alias rm='cp $@ ~/backup && rm $@'
 ```
 
 命令的大概意思是，首先复制要删除文件（文件名由$@传递）到~/backup 目录，然后删除它。但在我的实际使用中，这个alias命令无法运行。查了资料后，发现，在Bash Shell中，alias命令不接受参数传递。有关讨论可以看[这个问题](https://www.zhihu.com/question/23137414)，function才能。于是我修改了下，改为：
 
-```Bash
+```bash
 alias rm='move(){ /bin/mv -v $@ ~/Trash ;};move $@'
 ```
 

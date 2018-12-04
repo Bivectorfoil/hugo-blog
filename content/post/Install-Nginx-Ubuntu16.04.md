@@ -28,7 +28,7 @@ draft: false
 
 Ubuntu 的官方源已经包含了Nginx，我们可以通过官方源安装它。
 
-```Bash
+```bash
 $ sudo apt-get update
 $ sudo apt-get install nginx
 ```
@@ -53,7 +53,7 @@ $ sudo apt-get install nginx
 
 可以列出ufw知道如何配置的应用程序，如下：
 
-> ```shell
+> ```bash
 > # Output
 > Available applications:
 >   Nginx Full

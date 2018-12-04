@@ -11,7 +11,9 @@ draft: false
 ### 灌水预警！
 今天处理文本时遇到一个很常见的问题，我在~/src/projects/目录下有一大堆C文件，需要对这些文件执行一个相同的命令，如何在vim中批量处理呢？一番搜索，在stackoverflow上找到了一个漂亮的解决方案，特此记录下，地址[在这里](https://stackoverflow.com/questions/3218528/indenting-in-vim-with-all-the-files-in-folder)。具体如下：
 
-`:args ~/src/myproject/**/*.ttl | argdo execute "normal gg=G" | update`
+```bash
+:args ~/src/myproject/*/.ttl | argdo execute "normal gg=G" | update
+```
 
 - `args` 设置要操作的文件列表，使用**匹配当前目录及子目录。
 - 使用|设置管道，传递命令。

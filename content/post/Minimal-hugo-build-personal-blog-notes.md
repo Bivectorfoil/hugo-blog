@@ -83,7 +83,7 @@ draft: true
 
 “---”扩起来的内容是md文件的[元数据](https://zh.wikipedia.org/wiki/%E5%85%83%E6%95%B0%E6%8D%AE)，由Hugo自动生成。定义了关于这个页面要显示那些信息，如何渲染成html文件等等。以“---”分隔开是[YAML](http://www.yaml.org/)格式，其他格式如以“+++”分隔的TOML格式详细内容见[官方文档](https://gohugo.io/getting-started/configuration/)。接下来我们新建第一篇博文，为了统一管理，均放置在content/post/目录下。
 
-```Bash
+```bash
 $ hugo new post/first.md
 ```
 

@@ -26,7 +26,7 @@ HTTP是运用在客户端和服务端的协议内容，在通信的过程中，�
 
 客户端向服务端发出一个请求：
 
-```HTTP
+```bash
 GET / HTTP/1.1
 HOST: www.baidu.com
 ```
@@ -35,7 +35,7 @@ HOST: www.baidu.com
 
 服务端发送响应：
 
-```HTTP
+```bash
 HTTP/1.1 200 OK
 Date: Mon, 18 Dec 2017 13:30:59 GMT
 Content-Type: text/html

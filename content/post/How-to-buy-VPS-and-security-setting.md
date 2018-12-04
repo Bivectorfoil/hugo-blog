@@ -150,7 +150,7 @@ $ ssh user@host 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.p
 
 写入以下项：
 
-```config
+```bash
 Host name # 为ssh登录设置的主机别名
 HostName your_IP_addr # VPSIp地址
 Port port # ssh端口

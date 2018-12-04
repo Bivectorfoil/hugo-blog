@@ -27,7 +27,7 @@ $ hugo # 在博客目录下生成了public文件夹，这就是博客网站的�
 
 ssh登录到VPS，我们需要修改Nginx配置文件，在目录```/etc/nginx/nginx.conf```下，以sudo权限修改，找到http段，修改以下项：
 
-```
+```bash
 server {
         listen 80;
         server_name your_blog_domain_name;
@@ -49,7 +49,7 @@ $ git init --bare && cd hook && touch post-receive # 创建裸仓库，并创建
 $ vim post-receive # 用你喜欢的编辑器打开post-receive文件并写入以下内容：
 ```
 
-```git-hook
+```bash
 #!/bin/sh 
 GIT_REPO=/home/your_user/blog
 TMP_GIT_CLONE=/tmp/blog
