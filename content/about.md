@@ -5,7 +5,6 @@ author: "zvector"
 author_homepage: "https://bivectorfoil.github.io/"
 draft: false
 ---
+Zvector's personal blog site, record something fun:)
 
-Programming beginners,try to code the world：）
-
-Contact me via **Email：bivectorfoil@gamil.com**
+Contact me via **Email：Yml2ZWN0b3Jmb2lsQGdtYWlsLmNvbQ==**(base64)
